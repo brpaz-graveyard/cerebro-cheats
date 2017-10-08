@@ -1,0 +1,35 @@
+{
+  "name": "cerebro-cheats",
+  "description": "Cerebro plugin for quickly lookup cheat sheets in Markdown or image format",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bruno Paz",
+    "email": "brunopaz@sapo.pt",
+    "url": "http://brunopaz.net"
+  },
+  "repository": {
+    "url": "https://github.com/brpaz/cerebro-cheats"
+  },
+  "dependencies": {
+    "capitalize": "^1.0.0",
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16",
+    "fs-extra": "^4.0.1",
+    "fs-readdir-promise": "^1.0.1",
+    "highlight.js": "^9.12.0",
+    "remarkable": "^1.7.1"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.19"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test"
+  }
+}
